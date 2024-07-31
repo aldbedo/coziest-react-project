@@ -1,0 +1,27 @@
+body {
+    height: auto;
+}
+
+.about-section {
+    /* border: 2px solid green; */
+    padding: 10rem;
+}
+
+.container {
+    /* border: 2px solid green; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+    margin-bottom: 2.5rem;
+}
+
+.container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
