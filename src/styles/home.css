@@ -25,3 +25,22 @@ body {
     font-size: 1rem;
     font-weight: 500;
 }
+
+.product-title {
+    border:1px solid blue;
+    margin: auto 10rem;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.product-section-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+}
+
+.product-section {
+    display: flex;
+    justify-content: center;
+}

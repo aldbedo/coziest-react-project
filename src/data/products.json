@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "title": "Cozy Sweatshirt White",
+        "src": "src/products/shirt1.png"
+    },
+    {
+        "id": 2,
+        "title": "Cozy Sweatshirt Blue",
+        "src": "src/products/shirt2.png"
+    },
+    {
+        "id": 3,
+        "title": "Cozy Red Line",
+        "src": "src/products/shirt3.png"
+    },
+    {
+        "id": 4,
+        "title": "Cozy Maroon",
+        "src": "src/products/shirt4.png"
+    },
+    {
+        "id": 5,
+        "title": "Cozy Star Magic",
+        "src": "src/products/shirt5.png"
+    }
+]

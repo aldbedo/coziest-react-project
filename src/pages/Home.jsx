@@ -1,6 +1,8 @@
 import React from 'react'
 import CarouselApp from '../components/CarouselApp'
 import '../styles/home.css'
+import ProductCard from '../components/ProductCard'
+import products from '../data/products.json'
 
 function Home() {
     
@@ -15,6 +17,18 @@ function Home() {
                         believe in what they do.</p>
                 </div>
             </div>
+            <div className="product-title">
+                <h>PRODUCTS</h>
+                <h2 className="product-section-title">1ST COLLECTION</h2>
+            </div>
+            <div className="product-section">
+                {products.map((product) => (
+                    <ProductCard 
+                        key={product.id}
+                        src={product.src} 
+                        title={product.title}/>
+                ))}
+            </div> 
         </div>
     )
 }
