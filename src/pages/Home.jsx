@@ -18,7 +18,7 @@ function Home() {
                 </div>
             </div>
             <div className="product-title">
-                <h>PRODUCTS</h>
+                <h3>PRODUCTS</h3>
                 <h2 className="product-section-title">1ST COLLECTION</h2>
             </div>
             <div className="product-section">

@@ -60,14 +60,11 @@ body {
 }
 
 .nav-list {
-    position: relative;
+    /* border: 1px solid green; */
     display: flex;
     list-style-type: none;
-    top: 40%;
-}
-
-.header.active .nav-list {
-    top: 30%;
+    height: 100%;
+    align-items: center;
 }
 
 .nav-link {
@@ -75,17 +72,16 @@ body {
 }
 
 .nav-item {
+    /* border: 1px solid green; */
     font-size: 1.1rem;
     font-weight: 400;
     text-decoration: none;
     color: hsl(0, 0%, 100%);
     transition: 0.3s ease;
-    filter: drop-shadow(0 0 1rem hsla(0, 0%, 0%, 0.2));
 }
 
 .header.active .nav-item {
     font-size: 0.9rem;
-    filter: drop-shadow(0.1rem 0.1rem 0.5rem hsla(0, 0%, 0%, 0.2));
 }
 
 .nav-item:hover {
