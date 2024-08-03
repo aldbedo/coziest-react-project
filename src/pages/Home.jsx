@@ -28,7 +28,8 @@ function Home() {
                         src={product.src} 
                         title={product.title}/>
                 ))}
-            </div> 
+            </div>
+            
         </div>
     )
 }

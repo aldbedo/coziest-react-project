@@ -16,7 +16,7 @@ body {
 
 .container h2 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.7rem;
+    font-size: 2rem;
     margin-bottom: 2.5rem;
 }
 
@@ -36,6 +36,7 @@ body {
 }
 
 .product-title h3 {
+    font-size: medium;
     color: hsla(0, 0%, 70%, 0.808);
 }
 
@@ -45,6 +46,11 @@ body {
 }
 
 .product-section {
+    /* border: 1px solid blue; */
+    margin: auto auto;
     display: flex;
-    justify-content: center;
+    gap: 20px;
+    width: 70vw;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
 }

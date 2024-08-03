@@ -23,5 +23,30 @@
         "id": 5,
         "title": "Cozy Star Magic",
         "src": "src/products/shirt5.png"
+    },
+    {
+        "id": 6,
+        "title": "Cozy Tri Angels",
+        "src": "src/products/shirt6.png"
+    },
+    {
+        "id": 7,
+        "title": "Cozy Devil 00",
+        "src": "src/products/shirt7.png"
+    },
+    {
+        "id": 8,
+        "title": "Cozy Blue",
+        "src": "src/products/shirt8.png"
+    },
+    {
+        "id": 9,
+        "title": "Cozy Funk",
+        "src": "src/products/shirt9.png"
+    },
+    {
+        "id": 10,
+        "title": "Cozy Blackc",
+        "src": "src/products/shirt10.png"
     }
 ]
