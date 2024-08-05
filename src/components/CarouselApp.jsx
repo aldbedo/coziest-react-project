@@ -14,10 +14,10 @@ function CarouselApp() {
                         <img src={banner1} alt="banner1.jpg" className="d-block w-100"/>
                         <div className="carousel-overlay">
                             <Carousel.Caption>
-                                <h3>ALWAYS DEDICATED</h3>
-                                <p>Never stopped moving forward and has continuously<br/> 
-                                    evolved by further cultivating their relationship
-                                    with every<br/> individual alike and the community as a whole.</p>
+                                <h1>ALWAYS DEDICATED</h1>
+                                <p>Never stopped moving forward and has continuously evolved by
+                                    further<br/>  cultivating their relationship with every 
+                                    individual alike and the<br/>  community as a whole.</p>
                             </Carousel.Caption>
                         </div>
                     </Carousel.Item>

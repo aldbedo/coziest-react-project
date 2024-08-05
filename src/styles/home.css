@@ -45,12 +45,41 @@ body {
     font-size: 1.7rem;
 }
 
+.product-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .product-section {
     /* border: 1px solid blue; */
-    margin: auto auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
-    width: 70vw;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.gallery-section-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-row {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(38, 31%, 5%);
+}
+
+.img-card {
+    width: 540px;
+    height: 600px;
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+.gallery-image {
+    height: 100%;
 }
